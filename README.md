@@ -11,9 +11,16 @@ Template for Spring 4 MVC + JSP view + XML configuration, using Gradle build too
 
 ###2. To Run this project locally
 ```shell
-$ git clone https://github.com/mkyong/spring4-mvc-gradle-xml-hello-world
+$ git clone https://github.com/matthub/spring4-mvc-gradle-xml-hello-world
 $ gradle jettyRun
 ```
+
+or, when you prefer Tomcat,
+
+```
+$ gradle tomcatRun
+```
+
 Access ```http://localhost:8080/spring4```
 
 ###3. To import this project into Eclipse IDE
